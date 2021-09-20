@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boiler plate</title>
+    <title>Rock Paper Scissor</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -16,7 +16,40 @@
     <link rel="stylesheet" href="./Styles/style.css" />
   </head>
   <body>
-    <h1>Connect with us</h1>
+    <h1>Rock Paper Scissor</h1>
+    <div class="container">
+      <header>
+        <div class="title">
+          <p>Rock</p>
+          <p>Paper</p>
+          <p>Scissors</p>
+        </div>
+        <div class="scores">
+          <p>Computer : <span id="computer-score">0</span></p>
+          <p>User : <span id="User-score">0</span></p>
+        </div>
+      </header>
+      <div class="weapons">
+        <div class="one">
+          <button>
+            <i class="fas fa-hand-rock"></i>
+          </button>
+        </div>
+        <div class="two">
+          <button>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          <button>
+            <i class="fas fa-hand-scissors"></i>
+          </button>
+        </div>
+        <div class="results">
+          <p id="user-choice"></p>
+          <p id="computer-choice"></p>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
 
     <script src="./scripts/script.js"></script>
   </body>

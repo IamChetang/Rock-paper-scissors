@@ -8,16 +8,84 @@
   box-sizing: border-box;
 }
 
-:root{
-  --clr-dark:#1c2042;
-  --clr-white:#ffff;
+:root {
+  --clr-dark: #1c2042;
+  --clr-white: #ffff;
+  --clr-distemper: #158384;
+  --clr-orange: #f9bd52;
+  --clr-gray: #dce4e3;
+  --clr-white: #ffff;
 }
 html {
   font-size: 16px;
 }
 body {
-  font-family: font-family: 'Oswald', sans-serif;
-  background-color:var(--clr-dark);
-  color:var(--clr-white);
-  
+  font-family: 'Oswald', sans-serif;
+  background-color: var(--clr-gray);
+  color: var(--clr-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 45%;
+  min-width: 40rem;
+  background-color: var(--clr-distemper);
+  padding: 5rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+header {
+  font-weight: 700;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.scores p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+.scores p span {
+  font-weight: 600;
+}
+.weapons {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.weapons button {
+  background-color: var(--clr-dark);
+  color: var(--clr-gray);
+  border: none;
+  font-size: 4rem;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 2rem;
+  text-align: center;
+}
+#result {
+  width: 12rem;
+  padding: 1rem 0;
+  margin: 2rem auto;
+  letter-spacing: 0.5px;
 }
