@@ -85,9 +85,9 @@ header {
   font-size: 2rem;
 }
 #result {
-  width: 12rem;
-  padding: 1rem 0;
-  margin: 2rem auto;
+  width: 10rem;
+  padding: 0.5rem 0;
+  margin: 1rem auto;
   letter-spacing: 0.5px;
   font-size: 2rem;
 }
