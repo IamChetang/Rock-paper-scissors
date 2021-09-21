@@ -82,10 +82,12 @@ header {
 .results {
   margin-top: 2rem;
   text-align: center;
+  font-size: 2rem;
 }
 #result {
   width: 12rem;
   padding: 1rem 0;
   margin: 2rem auto;
   letter-spacing: 0.5px;
+  font-size: 2rem;
 }
